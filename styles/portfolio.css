@@ -14,6 +14,17 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* nav realeted style */
 nav{
     display: flex;
@@ -58,9 +69,93 @@ nav a{
 .banner-content{
     max-width: 500px;
 }
+
 .banner.profile-pic{
     width:500px;
 }
 .banner-greeting{
-    font-size: 45px
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 20px ;
 }
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 150px;
+}
+/* main section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: 300;
+}
+.info-description{
+    font-weight: bold;
+}
+
+#whatIdoDescription{
+    padding:30px 150px;
+}
+
+/* skll related styles */
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skills{
+    padding: 30px; 
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-descriptin{
+    color: #757575;
+}
+
+/* Resume section styles */
+ .resum-col-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .resume-container{
+    display: flex;
+    gap: 50px;
+ }
+ .resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+ .resume-item-institiute,.resume-item-description{
+    color: #757575;
+
+ }
+ .resume-container hr{
+    margin: 30px;
+ }
+ .download-cv{
+    text-align: center;
+    margin-top: 50px;
+ }
