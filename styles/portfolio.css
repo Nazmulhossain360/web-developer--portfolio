@@ -21,7 +21,7 @@ body{
     font-weight: 700;
 }
 .section-discription{
-    color: #757575;
+    color:#757575;
     text-align: center;
     font-size: 18px;
 }
@@ -117,7 +117,7 @@ main section{
     padding:30px 150px;
 }
 
-/* skll related styles */
+/* skill related styles */
 .skills-container{
     display: flex;
     gap:24px;
@@ -158,4 +158,35 @@ main section{
  .download-cv{
     text-align: center;
     margin-top: 50px;
+ }
+ /* Footer styles */
+ footer{
+    display: flex;
+    background-color: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
+ }
+ .footer-col{
+    width: 50%;
+ }
+ .social-icon a{
+    margin-right: 30px;
+ }
+
+ .contact,textarea{
+    display: block;
+    margin-bottom:25px ;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: fff;
+    border: 0;
+ }
+ .contact,input{
+    margin-bottom:25px ;
+    padding: 18px 70px;
+    color: #757575;
+    border-radius: 5px;
+    background: fff;
+    border: 0;
  }
